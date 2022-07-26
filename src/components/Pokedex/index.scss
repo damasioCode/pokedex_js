@@ -2,7 +2,8 @@
   &__wrapper {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 1.8rem;
+    grid-gap: 2rem;
+    min-height: calc(100vh - 317px);
     
     // flex-wrap: wrap;
   }

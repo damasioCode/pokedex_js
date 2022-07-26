@@ -1,0 +1,22 @@
+.banner {
+  margin: 1.25rem auto 2.25rem auto;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__img-wrapper {
+    @media (max-width: 720px) {
+      max-width: 300px;
+    }
+  }
+
+  &__subtitle {
+    font-size: 1.75rem;
+    margin-top: 1rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+  }
+}

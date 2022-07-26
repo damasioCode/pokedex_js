@@ -1,5 +1,6 @@
 import React from 'react'
-import './Card.scss'
+import './index.scss'
+
 
 const Card = ({data}) => {
   return (
@@ -14,7 +15,7 @@ const Card = ({data}) => {
         </div>
       </div>
       <picture className="card__image">
-        <img src={data.sprites.other['official-artwork'].front_default} alt={data.id}/>
+        <img src={data.image} alt={data.id}/>
       </picture>
     </li>
   )

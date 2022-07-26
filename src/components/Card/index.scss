@@ -7,7 +7,7 @@
 	border-radius: 4px;
 	display: flex;
 	justify-content: space-between;
-	max-height: 130px;
+	max-height: 140px;
 	box-shadow: 0 5px 10px rgba($color: #000000, $alpha: 0.1);
 
 	&:hover {
@@ -25,6 +25,7 @@
 	&__types {
 		display: flex;
 		gap: .5rem;
+		flex: 1;
 
 		.badge {
 			padding: .2rem .5rem;
@@ -35,10 +36,11 @@
 
 	&__image {
 		position: relative;
-		max-width: 140px;
-		top: -55px;
+		max-width: 164px;
+		top: -58px;
 		right: 0;
 		z-index: 2;
+		flex: 1;
 
 		img {
 			position: relative;
