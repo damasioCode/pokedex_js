@@ -1,0 +1,199 @@
+
+.search {
+	
+	&__input {
+		width: 100%;
+		padding: .5rem;
+		margin-top: 1rem ;
+		margin-bottom: 1rem ;
+	}
+
+	&:hover {
+		img { 
+			filter: grayscale(0);				
+		}
+	}
+
+	&__info {
+		h2 {
+			margin-bottom: .5rem;
+		}
+	}
+
+	&__types {
+		display: flex;
+		gap: .5rem;
+		flex: 1;
+
+		.badge {
+			padding: .2rem .5rem;
+			border-radius: 4px;
+			color: white;	
+		}
+	}
+
+	&__image {
+		position: relative;
+		max-width: 164px;
+		top: -58px;
+		right: 0;
+		z-index: 2;
+		flex: 1;
+
+		img {
+			position: relative;
+			width: 100%;
+			margin: 0 auto;
+			z-index: 2;
+			filter: grayscale(1);
+			transition: .3s all ease-out;
+			
+			&::before {
+				content: ' ';
+				display: block;
+				left: 0;
+				bottom: 210px;
+				width: 100%;
+				height: 100%;
+				z-index: 1;
+				opacity: 0.6;
+				background-image: url('../../pokeball.svg');
+				background-repeat: no-repeat;
+				background-position: 50% 0;
+				background-size: cover;
+			}
+		}
+
+	}
+}
+
+.steel {
+	background-color: #fcfcfc;
+}
+
+.ghost {
+	background-color: #3a3a3a;
+	color: white
+}
+
+.fire {
+	background-color: #ffa3a3;
+}
+
+.grass {
+	background-color: #96e0b5;
+}
+
+.electric {
+	background-color: #f8e68d;
+}
+
+.water, .ice {
+	background-color: #73c9f1;
+}
+
+.ground {
+	background-color: #d4af89;
+}
+
+.rock {
+	background-color: #c5c5be;
+}
+
+.fairy {
+	background-color: #e8c7ee;
+}
+
+.poison {
+	background-color: #c48be6;
+}
+
+.bug {
+	background-color: #f3ce9a;
+}
+
+.dragon {
+	background-color: #7796d1;
+}
+
+.psychic {
+	background-color: #da8add;
+}
+
+.flying {
+	background-color: #dee8ee;
+}
+
+.fighting {
+	background-color: #dbcfb7;
+}
+
+.normal {
+	background-color: #ecebeb;
+}
+
+
+.badge.steel {
+	background-color: #d8d8d8;
+	color: #222;
+}
+
+.badge.ghost {
+	background-color: #242323;
+}
+
+.badge.fire {
+	background-color: #dd6d6d;
+}
+
+.badge.grass {
+	background-color: #6bbd8d;
+}
+
+.badge.electric {
+	background-color: #ddca69;
+}
+
+.badge.water, .badge.ice {
+	background-color: #56acd4;
+}
+
+.badge.ground {
+	background-color: #b1875d;
+}
+
+.badge.rock {
+	background-color: #a7a78b;
+}
+
+.badge.fairy {
+	background-color: #b471c0;
+}
+
+.badge.poison {
+	background-color: #a469c7;
+}
+
+.badge.bug {
+	background-color: #d8af76;
+}
+
+.badge.dragon {
+	background-color: #4d6eaa;
+}
+
+.badge.psychic {
+	background-color: #aa52ad;
+}
+
+.badge.flying {
+	background-color: #9eb5c4;
+}
+
+.badge.fighting {
+	background-color: #b6a685;
+}
+
+.badge.normal {
+	background-color: #c2c2c2;
+}
